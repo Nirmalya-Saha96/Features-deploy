@@ -23,8 +23,16 @@ body{
     text-align: center;
   }
   
+  
+
+@media only screen and (max-width: 600px) {
   .cardcustom{
     margin-top: 15%;
+  }
+}
+
+.cardcustom{
+    margin-top: 5%;
   }
   
   .particles{
