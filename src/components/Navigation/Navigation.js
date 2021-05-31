@@ -7,10 +7,10 @@ import {
 const Navigation = ({onRouteChange, isSignedIn}) => {
         if (isSignedIn){
             return(
-                <nav style={{display: 'flex', justifyContent: 'flex-end'}}>
+                <nav style={{display: 'flex', justifyContent: 'flex-end', fontSize: 'medium'}}>
                     <Router>
                         <Link to="/">
-                            <p onClick={() => onRouteChange('Home')} className='f3 link dim black underline pa3 pointer'>Face Recognition</p>
+                            <p onClick={() => onRouteChange('Home')} className='f3 link dim black underline pa3 pointer'>Face</p>
                         </Link>
                         <Link to="/colaborate">
                             <p onClick={() => onRouteChange('colaborate')} className='f3 link dim black underline pa3 pointer'>Colaborate</p>
@@ -19,7 +19,7 @@ const Navigation = ({onRouteChange, isSignedIn}) => {
                             <p onClick={() => onRouteChange('codepen')} className='f3 link dim black underline pa3 pointer'>Codepen</p>
                         </Link>
                         <Link to="/">
-                            <p onClick={() => onRouteChange('signout')} className='f3 link dim black underline pa3 pointer'>Sign out</p>
+                            <p onClick={() => onRouteChange('signout')} className='f3 link dim black underline pa3 pointer'>Signout</p>
                         </Link>
                     </Router>
                 </nav>
