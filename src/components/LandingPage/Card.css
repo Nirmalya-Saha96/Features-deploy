@@ -18,3 +18,14 @@
     font-style: italic;
     color: red;
 } 
+
+.cardbox.tc.grow.bg-light-green.br3.pa3.ma2.dib.bw2.shadow-5 {
+    margin-left: 30%;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 10px;
+    width: 350px;
+}
