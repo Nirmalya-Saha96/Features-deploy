@@ -7,7 +7,7 @@ import {
 const Navigation = ({onRouteChange, isSignedIn}) => {
         if (isSignedIn){
             return(
-                <nav style={{display: 'flex', justifyContent: 'flex-end', fontSize: 'medium'}}>
+                <nav style={{display: 'flex', justifyContent: 'flex-end', fontSize: 'small'}}>
                     <Router>
                         <Link to="/">
                             <p onClick={() => onRouteChange('Home')} className='f3 link dim black underline pa3 pointer'>Face</p>
