@@ -13,7 +13,7 @@ const Navigation = ({onRouteChange, isSignedIn}) => {
                             <p onClick={() => onRouteChange('Home')} className='f3 link dim black underline pa3 pointer'>Face</p>
                         </Link>
                         <Link to="/colaborate">
-                            <p onClick={() => onRouteChange('colaborate')} className='f3 link dim black underline pa3 pointer'>Colaborate</p>
+                            <p onClick={() => onRouteChange('colaborate')} className='f3 link dim black underline pa3 pointer'>Colab</p>
                         </Link>
                         <Link to="/">
                             <p onClick={() => onRouteChange('codepen')} className='f3 link dim black underline pa3 pointer'>Codepen</p>
