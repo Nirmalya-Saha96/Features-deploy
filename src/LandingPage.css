@@ -28,6 +28,7 @@ body{
 @media only screen and (max-width: 600px) {
   .cardcustom{
     margin-top: 15%;
+      margin-left: 15%;
   }
 }
 
