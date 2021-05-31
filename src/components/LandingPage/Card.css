@@ -29,3 +29,18 @@
     padding: 50px;
     width: 400px;
 }
+
+@media only screen and (max-width: 600px) {
+    
+    .cardbox.tc.grow.bg-light-green.br3.pa3.ma2.dib.bw2.shadow-5 {
+    margin-left: 15%;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 50px;
+    width: 400px;
+}
+  
+}
