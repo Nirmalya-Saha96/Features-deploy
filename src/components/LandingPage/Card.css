@@ -33,7 +33,7 @@
 @media only screen and (max-width: 600px) {
     
     .cardbox.tc.grow.bg-light-green.br3.pa3.ma2.dib.bw2.shadow-5 {
-    margin-left: 15%;
+    margin-left: 5%;
     margin-bottom: 15px;
     display: flex;
     justify-content: flex-end;
