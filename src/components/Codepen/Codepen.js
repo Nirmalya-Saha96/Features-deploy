@@ -27,7 +27,7 @@ function Codepen({name}) {
     <>
       <div className="pane top-pane">
         <h1 className='headingcustom'>
-          Welcome {name} to your personalised codepen
+           {name} 's Codepen
         </h1>
         <Editor
           language="xml"
