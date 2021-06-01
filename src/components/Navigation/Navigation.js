@@ -19,7 +19,7 @@ const Navigation = ({onRouteChange, isSignedIn}) => {
                             <p onClick={() => onRouteChange('codepen')} className='f3 link dim black underline pa3 pointer'>Codepen</p>
                         </Link>
                         <Link to="/">
-                            <p onClick={() => onRouteChange('signout')} className='f3 link dim black underline pa3 pointer'>Signout</p>
+                            <p onClick={() => onRouteChange('signout')} className='f3 link dim black underline pa3 pointer'>out</p>
                         </Link>
                     </Router>
                 </nav>
